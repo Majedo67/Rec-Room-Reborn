@@ -633,7 +633,7 @@ importers:
   apps/img:
     dependencies:
       '@cf-wasm/photon':
-        specifier: ^0.3.6
+        specifier: 0.3.6
         version: 0.3.6
       '@repo/hono-helpers':
         specifier: workspace:*
@@ -1354,7 +1354,7 @@ importers:
   packages/domain:
     dependencies:
       isemail:
-        specifier: ^3.2.0
+        specifier: 3.2.0
         version: 3.2.0
     devDependencies:
       '@cloudflare/workers-types':
